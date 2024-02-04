@@ -25,7 +25,7 @@ improve CSS style
 
 Here's a walkthrough of implemented features:
 
-<img src='./Kapture 2024-02-04 at 00.27.33.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./my.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap  
