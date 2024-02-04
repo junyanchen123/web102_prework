@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: 'Cabin';
+    font-family: 'Cabin', sans-serif;
     background-color: #758190;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 #tentacles {
@@ -12,24 +14,34 @@ body {
 .header {
     display: flex;
     background-color: lightblue;
-    padding: 1%;
+    padding: 1.5%;
     align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .stats-container {
     display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(173, 216, 230, 0.8); /* Lighter shade of lightblue */
+    background: linear-gradient(to right, #71a9ce, #a8b0bc); /* Gradient background */
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
-    border-radius: 7px;
-    padding: 1%;
-    margin: 1%;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 15px;
+    padding: 2.5%; /* Slightly larger padding */
+    margin: 1.5%;
     width: 100%;
     text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.stats-card:hover {
+    transform: scale(1.05);
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -49,17 +61,19 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
-    padding: 1%;
-    margin: 1%;
+    background-color: #fff;
+    padding: 2%;
+    margin: 1.5%;
     width: 300px;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
-
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
 }
 
 #button-container {
@@ -67,9 +81,30 @@ body {
 }
 
 button {
-    font-family: 'Cabin';
+    font-family: 'Cabin', sans-serif;
     border: none;
-    padding: 1%;
+    padding: 1.5%;
     margin: 1%;
-    border-radius: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #3493db;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #171615;
+}
+
+h2 {
+    color: #222324;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: rgba(84, 44, 44, 0.974);
+    font-size: 1.2em;
+    line-height: 1.4;
+    margin: 0;
 }
