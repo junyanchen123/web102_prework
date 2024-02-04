@@ -18,14 +18,13 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [x] List anything else that you can get done to improve the app functionality!
-
 improve CSS style
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='./my.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/6IeGQLl' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap  
