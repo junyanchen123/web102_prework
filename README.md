@@ -18,13 +18,14 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [x] List anything else that you can get done to improve the app functionality!
+
 improve CSS style
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='https://vimeo.com/102084767' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Kapture 2024-02-03 at 23.49.50.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap  
